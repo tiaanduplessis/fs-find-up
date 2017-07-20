@@ -11,6 +11,9 @@
   <a href="https://npmjs.org/package/@tiaanduplessis/fs-find-up">
   <img src="https://img.shields.io/npm/dm/@tiaanduplessis/fs-find-up.svg?style=flat-square" alt="npm downloads" />
   </a>
+  <a href="https://codecov.io/gh/tiaanduplessis/fs-find-up">
+  <img src="https://codecov.io/gh/tiaanduplessis/fs-find-up/branch/master/graph/badge.svg" alt="Codecov" />
+</a>
   <a href="https://github.com/feross/standard">
     <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="standard JS linter" />
   </a>
