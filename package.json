@@ -1,0 +1,31 @@
+{
+  "name": "@tiaanduplessis/fs-find-up",
+  "version": "1.0.0",
+  "description": "Search up directory tree for specific file(s)",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/fs-find-up",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/fs-find-up",
+  "bugs": "https://github.com/tiaanduplessis/fs-find-up",
+  "main": "index.js",
+
+  "bin": "cli.js",
+  "files": ["index.js", "cli.js"],
+  "scripts": {
+    "test": "jest",
+    "test:cov": "npm test -- --coverage",
+    "lint": "prettier-standard index.js",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "pretest": "npm run lint:fix"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "husky": "^0.14.3",
+    "prettier-standard": "^6.0.0"
+  }
+}
