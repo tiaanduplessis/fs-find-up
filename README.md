@@ -59,6 +59,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/fs-find-up.svg)](https://greenkeeper.io/)
+
 Find file(s) by walking up parent directories. Similar to [find-up](https://www.npmjs.com/package/find-up), but adds support for matching using regex and is synchronous by default.
 
 ## Install
