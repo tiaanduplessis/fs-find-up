@@ -14,7 +14,8 @@
   "bin": "cli.js",
   "files": ["index.js", "cli.js"],
   "scripts": {
-    "test": "jest",
+    "test": "node test/regex-traversal.js && jest",
+    "test:regression": "node test/regex-traversal.js",
     "test:cov": "npm test -- --coverage",
     "lint": "prettier-standard index.js",
     "lint:fix": "npm run lint -- --fix",
