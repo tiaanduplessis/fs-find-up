@@ -55,7 +55,7 @@ const findInDir = function findInDir (pathStr = '', file) {
 
   const result = fileExists(pathStr, file)
 
-  if (result) {
+  if (result && result.length) {
     return result
   }
 
